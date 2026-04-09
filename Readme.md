@@ -25,7 +25,7 @@ This system follows a **clean layered architecture** using **Spring Boot**, ensu
 
 ## 🧩 Features & Modules
 
-##### Features
+### Features
 * Patient Management: Maintain patient details including personal information and history
 * Doctor Management: Manage doctor profiles and specializations
 * Appointment Scheduling: Book, update, and cancel appointments
