@@ -1,0 +1,33 @@
+post : http://localhost:8080/api/patients
+
+       {
+         "name": "Rahul Mehta",
+         "email": "rahul.mehta@example.com",
+         "age": 30,
+         "gender": "Male"
+       }
+
+
+
+
+1. Create a new Patient
+POST /api/patients
+
+
+{
+  "name": "John Doe",
+  "email": "john.doe@example.com",
+  "phone": "9876543210"
+}
+2. Get all Patients
+GET /api/patients
+
+3. Get Patient by ID
+GET /api/patients/{id}
+
+4. Update Patient by ID
+PUT /api/patients/{id}
+
+5. Delete Patient by ID
+DELETE /api/patients/{id}
+

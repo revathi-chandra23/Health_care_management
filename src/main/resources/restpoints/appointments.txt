@@ -1,0 +1,29 @@
+post : http://localhost:8080/api/appointments
+
+{
+  "doctorId": 5,
+  "patientId": 4,
+  "appointmentDate": "2025-06-17T10:00:00",
+  "reason": "Emergency"
+}
+
+
+1. Book a new Appointment
+POST /api/appointments
+
+{
+  "doctorId": 1,
+  "patientId": 2,
+  "appointmentTime": "2025-06-20T15:00:00"
+}
+2. Get all Appointments
+GET /api/appointments
+
+3. Get Appointment by ID
+GET /api/appointments/{id}
+
+4. Update Appointment
+PUT /api/appointments/{id}
+
+5. Cancel/Delete Appointment
+DELETE /api/appointments/{id}

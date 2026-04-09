@@ -1,0 +1,50 @@
+Smart HealthCare Appointment & Management System
+ Project Overview:
+A full-stack backend system that allows patients to book appointments with doctors, manage medical records, and receive automated reminders. Admins can manage doctors, schedules, and patient data. Doctors can view appointments and update patient records.
+
+
+ Tech Stack:
+Java (Core Java) – Business logic, models, and utilities
+Spring Boot – REST API development, dependency injection, and service layers
+Spring Data JPA – ORM for database interaction
+MySQL/PostgreSQL – Relational database
+Postman – API testing
+
+
+ Key Modules:
+1. User Management
+Patient and Doctor registration/login
+Role-based access control (Admin, Doctor, Patient)
+2. Appointment Booking
+Patients can search for doctors by specialization
+Book, reschedule, or cancel appointments
+Doctors can approve or reject appointments
+3. Medical Records
+Doctors can add/update diagnosis and prescriptions
+Patients can view their medical history
+4. Admin Dashboard
+Manage doctors, patients, and appointments
+View system analytics (e.g., most booked doctors)
+5. Notifications
+Email/SMS reminders for upcoming appointments (can be mocked)
+
+ Project Structure (Spring Boot):
+com.healthcare
+├── controller
+├── service
+├── repository
+├── model
+├── dto
+├── config
+└── exception
+
+
+Skills Highlighted:
+
+RESTful API design and development
+Spring Boot annotations and dependency injection
+Core Java (OOP, Collections, Exception Handling)
+Database design and JPA
+
+Clean code and layered architecture
+

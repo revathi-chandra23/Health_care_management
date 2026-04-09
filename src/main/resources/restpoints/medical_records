@@ -1,0 +1,31 @@
+post : http://localhost:8080/api/medical-records
+
+{
+  "patientId": 1,
+  "doctorId": 1,
+  "diagnosis": "Hypertension",
+  "prescription": "Amlodipine 5mg",
+  "recordDate": "2025-06-17"
+}
+
+
+1. Add a new Medical Record
+POST /api/medical-records
+
+{
+  "patientId": 2,
+  "doctorId": 1,
+  "diagnosis": "Flu",
+  "treatment": "Medication and rest"
+}
+2. Get all Medical Records
+GET /api/medical-records
+
+3. Get Medical Record by ID
+GET /api/medical-records/{id}
+
+4. Get Records by Patient ID
+GET /api/medical-records/patient/{patientId}
+
+5. Delete Record
+DELETE /api/medical-records/{id}

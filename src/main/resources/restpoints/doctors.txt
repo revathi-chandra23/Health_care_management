@@ -1,0 +1,52 @@
+post :  http://localhost:8080/api/doctors
+
+{
+  "name": "Dr. Atchyuth",
+  "email": "Atchyuth@gmail.com",
+  "specialization": "Neurologist"
+}
+
+
+ Doctor REST API Endpoints
+ 1. Create a new Doctor
+Method: POST
+
+URL: /api/doctors
+
+Request Body:
+
+
+{
+  "name": "Dr. Ravi Kumar",
+  "email": "ravi.kumar@example.com",
+  "specialization": "Cardiologist"
+}
+
+2. Get all Doctors
+Method: GET
+
+URL: /api/doctors
+
+3. Get Doctor by ID
+Method: GET
+
+URL: /api/doctors/{id}
+
+Example: /api/doctors/1
+4. Update Doctor by ID
+Method: PUT
+
+URL: /api/doctors/{id}
+
+Request Body:
+
+{
+  "name": "Dr. Ravi K",
+  "email": "ravi.k@example.com",
+  "specialization": "General Physician"
+}
+
+ 5. Delete Doctor by ID
+Method: DELETE
+
+URL: /api/doctors/{id}

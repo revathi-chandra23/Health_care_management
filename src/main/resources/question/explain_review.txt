@@ -1,0 +1,8 @@
+ Smart HealthCare Appointment & Management System
+Built a Spring Boot-based REST API system for booking appointments, managing medical records, and handling user roles (Admin, Doctor, Patient).
+Implemented Core Java, Spring Data JPA, and MySQL with clean layered architecture.
+Enabled features like doctor search by specialization, appointment approvals, and system analytics for most-booked doctors.
+Tested and documented all APIs using Postman to ensure reliable request/response handling and endpoint validation.
+
+
+

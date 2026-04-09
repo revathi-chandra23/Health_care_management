@@ -1,0 +1,5 @@
+1. View System Stats
+GET /api/admin/dashboard
+
+2. List All Users (Doctors, Patients)
+GET /api/admin/users
