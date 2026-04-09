@@ -94,9 +94,13 @@ com.healthcare
 ### Prerequisites
 
 Java (JDK 8 or above)
+
 Maven
+
 MySQL or PostgreSQL
+
 Postman (for API testing)
+
 
 ### Setup Instructions
 Clone the repository
