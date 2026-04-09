@@ -90,7 +90,7 @@ com.healthcare
 ```
 
 ---
-## Installation
+## 🪛 Installation
 ### Prerequisites
 
 Java (JDK 8 or above)
